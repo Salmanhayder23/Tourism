@@ -1,0 +1,53 @@
+﻿<html>
+<head>
+    <title>Tour selection</title>
+</head>
+<body>
+    <h1>Please fill the required filds</h1>
+    <form action="booking.php" method="POST">
+        <label for="tripid">Trip ID:</label>
+        <input type="number" name="tripid" id="trip id" required><br>
+
+        <label for="cid">Customer Id:</label>
+        <input type="number" name="cid" id="customer id" required><br>
+
+        <label for="source">Source:</label>
+        <input type="text" name="source" id="source" required><br>
+
+        <label for="Destination">Destination:</label>
+        <br>
+        <input type="radio" name="destination" value="Coxs Bazar" /> Coxs Bazar <br>
+        <input type="radio" name="destination" value="Rangamati" /> Rangamati <br>
+        <input type="radio" name="destination" value="Bandarban" /> Bandarban<br>
+        <input type="radio" name="destination" value="Khagrachari" /> Khagrachari<br>
+        <input type="radio" name="destination" value="Teknaf" /> Teknaf<br>
+        <input type="radio" name="destination" value="Kuakata" /> Kuakata<br>
+        <br>
+        <label for="Desired_vehicles">Desired Vehicle:</label><br>
+        <input type="radio" name="desired_vehicles" Value="Hino" />Hino <br>
+        <input type="radio" name="desired_vehicles" Value="Akij" />Akij<br>
+        <input type="radio" name="desired_vehicles" Value="corolla" />Corolla <br>
+        <input type="radio" name="desired_vehicles" Value="pajero" />Pajero <br>
+        <label for="starting_date">Starting Date:</label>
+        <input type="date" name="starting_date" id="starting date" required><br>
+
+        <label for="ending_date">Ending Date:</label>
+        <input type="date" name="ending_date" id="ending_date" required><br>
+
+        <label for="name">Customer Name:</label>
+        <input type="text" name="name" id="name" required><br>
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" name="gender" value="male" /> Male <br>
+        <input type="radio" name="gender" value="female" /> Female <br>
+        <input type="radio" name="gender" value="other" /> Other
+        <br>
+
+        <label for="address">Address:</label>
+        <input type="text" name="adress" id="adress" required><br>
+        <label for="phone">Phone:</label>
+        <input type="text" name="country code" value="+88" size="2" />
+        <input type="text" name="phone" size="10" /> <br> <br>
+        <button type="submit">Book Now!</button>
+    </form>
+</body>
+</html>
